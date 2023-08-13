@@ -1,0 +1,59 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(207, 203, 198);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    gap: 850px;
+}
+
+.tanaka {
+   text-align: center;
+   padding: 100px;
+   
+}
+
+.melvia {
+    text-align: center;
+    padding: 100px;
+}
+
+.biodata {
+    display: flex ;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.biomelvia {
+    text-align: center;
+
+}
+.biotanaka {
+    text-align: center;
+}
+
+.hari {
+    justify-content: center;
+    display: flex;
+    gap: 350px;
+    margin-top: 100px;
+}
+
+.jadwal {
+    display: flex;
+    justify-content: center;
+}
+
+.mapel {
+    background-color: rgb(243, 239, 234); 
+    padding: 100px;
+    margin-left: 2000px;
+    margin-right: 2000px;
+    margin-top: 100px;
+    margin-block-end: 200px;
+}
