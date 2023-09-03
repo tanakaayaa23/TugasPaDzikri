@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial</title>
+    <link href="W3Schools_logo.svg.png" type="png" rel="website icon">
+</head>
+<style>
+    *, body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    .dropbtn {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      padding: 12px;
+      font-size: 18px;
+      border: none;
+      margin-top: 0;
+      margin-left: 20px;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #08ac6c; color: white;}
+    .navbawah ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444444;
+    display: flex;
+   
+}
+  
+.navbawah li {
+    float: left;
+}
+  
+.navbawah li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 7px 20px;
+    width: max-content;
+    text-decoration: none;
+}
+  
+.navbawah li a:hover {
+    background-color: #1a1a1a;
+}
+.navpinggir ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+
+  }
+  
+ .navpinggir li a {
+    display: block;
+    color: #000;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+
+  .navpinggir li a:hover {
+    background-color: #acabab;
+  }
+
+  .content {
+    width: 90%;
+    float: left;
+    clear : both;
+  }
+
+  .btn button{
+    color: white;
+    background-color:#08ac6c ;
+    padding: 9px 15px 9px 15px;
+    font-size: 18px;
+    margin-left: 35px;
+    border: none;
+    border-radius: 10%;
+    font-style: bold;
+    margin-top: 10px;
+  }
+
+  .btn button a{
+    color: white;
+    text-decoration: none;
+  }
+  .btn button:hover{
+    background-color: #069760;
+  }
+  .containerisi {
+    margin-top: 25px;
+    margin-left: 15px;
+    background-color: #D9EEE1;
+    width : 1250px;
+    padding : 25px 0 25px 10px;
+  }
+  .containerisi button {
+    color: white;
+    background-color:#08ac6c ;
+    padding: 12px 18px 12px 18px;
+    font-size: 15px;
+    margin-left: 28px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-style: bold;
+    margin-top: 10px;
+  }
+
+  .containerisi button a {
+    text-decoration: none;
+    color: white;
+  }
+
+ .hijau :hover {
+    background-color : #069760;
+  }
+
+
+
+  .containerisi p {
+    margin-left: 28px;
+  }
+
+  .containerisi2 {
+    background-color: #E7E9EB;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 1250px;
+    margin-left: 28px;
+    padding-bottom: 20px;
+  }
+
+  .hijau2 {
+    color: white;
+    background-color:#08ac6c ;
+    padding: 12px 18px 12px 18px;
+    font-size: 15px;
+    margin-left: 35px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  .hijau2 button a:hover {
+    background-color : #069760;
+  }
+    </style>
+
+<body>
+    <div class="navbar">
+        <div class="navatas" style="display: flex; margin-left: 10px;">
+            <img src="W3Schools_logo.svg.png" style="height: 40px; width: 40px; ">
+            <div class="dropdown">
+                <button class="dropbtn">Tutorial</button>
+                <div class="dropdown-content">
+                  <a href="#">Html</a>
+                  <a href="#">CSS</a>
+                  <a href="#">Bootstrap</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Exercise</button>
+                <div class="dropdown-content">
+                  <a href="#">Html</a>
+                  <a href="#">CSS</a>
+                  <a href="#">Bootstrap</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Get Certified</button>
+                <div class="dropdown-content">
+                  <a href="#">Html</a>
+                  <a href="#">CSS</a>
+                  <a href="#">Bootstrap</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Services</button>
+                <div class="dropdown-content">
+                  <a href="#">Html</a>
+                  <a href="#">CSS</a>
+                  <a href="#">Bootstrap</a>
+                </div>
+            </div>
+        </div>
+        <div class="navbawah" style="display: flex;">
+            <ul>
+                <li><a href="#z" style="background-color: #08ac6c;">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JAVASCRIPT</a></li>
+                <li><a href="#">SQL</a></li>
+                <li><a href="#">PHYTON</a></li>
+                <li><a href="#">JAVA</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">HOW TO</a></li>
+                <li><a href="#">W3.CSS</a></li>
+                <li><a href="#">C</a></li>
+                <li><a href="#">C++</a></li>
+                <li><a href="#">C#</a></li>
+                <li><a href="#">BOOTSTRAP</a></li>
+                <li><a href="#">REACT</a></li>
+                <li><a href="#">MYSQL</a></li>
+                <li><a href="#">JQUERY</a></li>
+                <li><a href="#">EXCEL</a></li>
+                <li><a href="#">XML</a></li>
+                <li><a href="#">DJANGO</a></li>
+                <li><a href="#">NODEJS</a></li>
+                <li><a href="#">R</a></li>
+                <li><a href="#">TYPESCRIPT</a></li>
+                <li><a href="#">ANGULAR</a></li>
+                <li><a href="#">GIT</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="bawah" style="clear: both; display: flex;">
+    <div class="navpinggir" style="background-color: #f1f1f1;  float: left; width: 10%; padding-top: 10px;">
+        <p style="font-size: 25px; height: 7px; margin-top: 0; padding: 7px;"> HTML Tutorial</p>
+        <ul >
+            <li><a href="#css" style="background-color: #08ac6c; color: white; width: auto;">HTML Home</a></li>
+            <li><a href="w3school2.html">HTML Introduction</a></li>
+            <li><a href="w3school3.html">HTML Editors</a></li>
+            <li><a href="#css">HTML Elements</a></li>
+            <li><a href="#css">HTML Attributes</a></li>
+            <li><a href="#css">HTML Headings</a></li>
+            <li><a href="#css">HTML Paragraphs</a></li>
+            <li><a href="#css">HTML Styles</a></li>
+            <li><a href="#css">HTML Formatting</a></li>
+            <li><a href="#css">HTML Quotations</a></li>
+            <li><a href="#css">HTML Comments</a></li>
+            <li><a href="#css">HTML Colors</a></li>
+            <li><a href="#css">HTML CSS</a></li>
+            <li><a href="#css">HTML Links</a></li>
+            <li><a href="#css">HTML Images</a></li>
+            <li><a href="#css">HTML Favicon</a></li>
+            <li><a href="#css">HTML Page Title</a></li>
+            <li><a href="#css">HTML Tables</a></li>
+            <li><a href="#css">HTML Lists</a></li>
+            <li><a href="#css">HTML Links</a></li>
+            <li><a href="#css">HTML Images</a></li>
+            <li><a href="#css">HTML Favicon</a></li>
+            <li><a href="#css">HTML Page Title</a></li>
+            <li><a href="#css">HTML Tables</a></li>
+            <li><a href="#css">HTML Lists</a></li>
+            <li><a href="#css">HTML Links</a></li>
+            <li><a href="#css">HTML Images</a></li>
+            <li><a href="#css">HTML Favicon</a></li>
+            <li><a href="#css">HTML Page Title</a></li>
+            <li><a href="#css">HTML Tables</a></li>
+            <li><a href="#css">HTML Lists</a></li>
+          </ul>
+    </div>
+    <div class="content">
+        <p style="font-size: 45px; margin-left: 35px; margin-top: 100px; margin-bottom: 0;"> HTML Tutorial</p>
+        <div class="btn">
+          <button style="margin-right: 1000px;" > <a href="#">< Home</a></button>
+          <button > Next ></button>
+        </div> 
+        <div class="containerisi"> 
+            <p> HTML is the standard markup language for Web pages. </p>
+            <p > With HTML you can create your own Website.</p>
+            <p> HTML is easy to learn - You will enjoy it!</p>
+            <div class="hijau">
+            <button ><a href="#"> Study our Free HTML Tutorial >></a></button><br></div>
+            <div class="hitam">
+            <button style="background-color: #363636; margin-top: 25px;"> <a href="#"> Watch our Video Tutorial >></a></button></div>
+        </div>
+        <p style="font-size: 30px; margin-left: 35px;"> Easy Learning with HTML "Try it Yourself" </p>
+        <p style="font-size: 20px; margin-left: 35px;"> With our "Try it Yourself" editor, you can edit the HTML code and view the result: </p>
+        <div class="containerisi2">
+          <p style="margin-left: 30px; font-size: 25px; padding-top: 20px;"> Example </p>
+          <img src="Screenshot (49).png" style="height: 300px; margin-left: 20px;">
+          <button class="hijau2"><a href="#" style="color: white; text-decoration: none; margin-bottom: 20px;"> Try it Yourself</a></button><br>
+
+        </div>
+    </div>
+  </div>
+</body>
+</html>
